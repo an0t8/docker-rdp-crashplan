@@ -8,7 +8,7 @@ MAINTAINER an0t8
 ENV USER_ID=99
 ENV GROUP_ID=100
 ENV TERM="xterm"
-ENV CP_VERSION="4.8.2"
+ENV CP_PRO_VERSION="4.9.0_1436674888490_33"
 
 # Gui App Name default is "GUI_APPLICATION"
 ENV APP_NAME="Crashplan"
@@ -31,4 +31,4 @@ RUN chmod +x /tmp/install.sh && sleep 1 && /tmp/install.sh && rm /tmp/install.sh
 ##         EXPORTS AND VOLUMES         ##
 #########################################
 VOLUME /data /config
-EXPOSE 4243 4242 3389
+EXPOSE 4243 3389

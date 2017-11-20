@@ -4,7 +4,7 @@ This project was copied from https://hub.docker.com/r/gfjardim/crashplan/ and mo
 
 The original project by gfjardim contained a VNC & noVNC connection, but since I already had an ecosystem including guacamole and dockergui, I decided to port it.
 
-# CrashPlan Container with CrashPlan Desktop App
+# CrashPlan Container with CrashPlanPro Desktop App
 
 To run this container, please use this command:
 
@@ -39,10 +39,6 @@ This will disable MPROTECT for grsec on Java executable (for hardened kernels).
 ###Ports:
 
 This container ports can be changed, in bridge network mode, changing the "-p" switch from the run command.
-
-####Port 4242:
-
-This port is used by CrashPlan for computer-to-computer backups.
 
 ####Port 4243:
 
